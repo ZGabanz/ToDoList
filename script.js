@@ -2,7 +2,6 @@ const input = document.querySelector('#input');
 const btnClear = document.querySelector('#btnClear');
 const result = document.querySelector('#result');
 
-
 var inp = document.getElementById("input");
     inp.addEventListener("keyup", function(event) {
         event.preventDefault();
@@ -16,16 +15,13 @@ function createElements(value) {
     console.log(value);
 
     const li = document.createElement('li');
+    li.setAttribute("type","radio");
     li.className = 'li';
     li.textContent = value;
 
     btnClear.addEventListener('click', (e) => {
-        result.removeChild(li);
+        document.body.removeChild(li);
     })
 
-    result.appendChild(li);
+    document.body.appendChild(li);
 }
-
-
-
-
