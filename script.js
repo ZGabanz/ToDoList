@@ -15,12 +15,16 @@ function createElements(value) {
     console.log(value);
 
     const li = document.createElement('li');
-    li.setAttribute("type","radio");
+    li.setAttribute("type","checkbox");
     li.className = 'li';
     li.textContent = value;
 
     btnClear.addEventListener('click', (e) => {
         document.body.removeChild(li);
+    })
+
+    li.addEventListener('click', (e) => {
+        li.classList.toggle('li');
     })
 
     document.body.appendChild(li);
