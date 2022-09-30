@@ -12,13 +12,13 @@ body {
     max-width: 405px;
     padding: 28px 0 30px;
     margin: 137px auto;
+    border-radius: 7px;
 }
 
 .wrap {
     margin-top: 20px;
     margin-right: 5px;
     padding: 0 20px 10px 25px;
-
 }
 
 #input {
@@ -41,8 +41,9 @@ ul {
 
 .li {
     background: #eddfff;
-    padding: 4px;
-    margin: 10px;
+    max-width: 405px;
+    padding: 20px 0 15px;
+    margin: 10px auto;
     position:relative;
 }
 
