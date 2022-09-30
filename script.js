@@ -1,5 +1,5 @@
 const input = document.querySelector('#input');
-const btnClear = document.querySelector('#btnClear');
+const btnClear = document.querySelector('#btn');
 const result = document.querySelector('#result');
 
 var inp = document.getElementById("input");
