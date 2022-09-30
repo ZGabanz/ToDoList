@@ -24,7 +24,7 @@ function createElements(value) {
     })
 
     li.addEventListener('click', (e) => {
-        li.classList.toggle('li');
+        li.classList.toggle('liLine');
     })
 
     document.body.appendChild(li);

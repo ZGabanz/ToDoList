@@ -8,9 +8,16 @@ body {
     box-sizing: border-box;
 }
 
+.wrapper {
+    max-width: 405px;
+    padding: 28px 0 30px;
+    margin: 137px auto;
+}
+
 .wrap {
-    width: 300px;
-    margin: auto;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 0 20px 10px 25px;
 
 }
 
@@ -37,4 +44,8 @@ ul {
     padding: 4px;
     margin: 10px;
     position:relative;
+}
+
+.liLine {
+    text-decoration: line-through;
 }
