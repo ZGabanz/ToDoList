@@ -1,10 +1,37 @@
 # ToDoList
-<h1 align="center">Hi there, I'm <a href="https://github.com/ZGabanz" target="_blank">Kseniya</a> 
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h2 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F74C8B&center=true&width=435&lines=Computer+science+student" alt="Typing SVG" /></a></h2>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ZGabanz&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+ToDo List using vanilla JS + HTML/CSS
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ZGabanz)](https://github.com/anuraghazra/github-readme-stats)
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+npm install
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+```
+npm run build
+```
+
+And repeat
+
+```
+npm run start
+```
+
+## Authors
+
+* **Kseniya Shapovalova** - *Initial work* - [ZGabanz](https://github.com/ZGabanz)
+
+See also the list of [contributors](https://github.com/shapovalovand) who participated in this project.
 
 

@@ -11,8 +11,7 @@ inp.addEventListener("keyup", function(event) {
     }
 });
 
-function createLists(text) {
-
+ const createLists = (text) => {
     const li = document.createElement('li');
     li.setAttribute("type","checkbox");
     li.className = 'li';
